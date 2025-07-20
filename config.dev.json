@@ -138,17 +138,17 @@
     "whiteListModeThread": false,
     "needRoleToUseCmd": false
   },
-  "logEvents": {
-    "disableAll": false,
-    "message": true,
-    "message_reaction": true,
-    "message_unsend": true,
-    "message_reply": true,
-    "event": true,
-    "read_receipt": true,
-    "typ": false,
-    "presence": false
-  },
+"logEvents": {
+		"disableAll": false,
+		"message": true,
+		"message_reaction": true,
+		"message_unsend": true,
+		"message_reply": true,
+		"event": true,
+		"read_receipt": false,
+		"typ": false,
+		"presence": false
+	},
   "optionsFca": {
     "forceLogin": true,
     "listenEvents": true,
@@ -157,9 +157,9 @@
     "logLevel": "error",
     "selfListen": true,
     "selfListenEvent": true,
-    "autoMarkDelivery": false,
+    "autoMarkDelivery": true,
     "autoReconnect": true,
-    "online": false,
+    "online": true,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
   }
 }
